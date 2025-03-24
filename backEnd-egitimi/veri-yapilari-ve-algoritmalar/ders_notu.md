@@ -1185,6 +1185,29 @@ Karşıma 22 değerinde olan düğüm çıkıyor. Eklemek istediğim sayı 22 de
 - [Veri Yapıları — Binary Search Tree Nedir?](https://tsafaelmali.medium.com/binary-search-tree-nedir-2e6fb0621d9)
 - [Binary Search Tree' yi Anlamak](https://www.buraksenyurt.com/post/Binary-Search-Tree-yi-Anlamak)
 
+### E. BFS (Breadth First Search - Geniş Öncelikli Arama)
+
+Genişlik/Yayılım Öncelikli Arama aynı zamanda Düzey/Seviye Sıralamalı Arama olarakta bilinir. Bu algoritma queeu(kuyruk) yapısını kullanır. İlk gelen ilk çıkar (FIFO - First In First Out veya LIFO - Last In Last Out).
+
+> #### E_1. BFS Algoritması Nedir ?
+
+Temel amaç iki hedef arasındaki en kısa mesafeyi bulmaktır. Bir root(başlangıç node) belirlenir. Aşağıda ki gifte görüldüğü gibi biz "3" değerini root olarak belirledik bu örnekte. Kuyruk yapısı kullandığımız için ilk giren ilk çıkar yapısı mevcut. 3'ün child nodelarını buluyoruz 5, 8 ve 25. Bunları bulduktan sonra 3'ü siliyoruz. Sonrasında rootumuz son durumda 5 oluyor. 5in çocuklarını buluyoruz 1 ve 2. Bulduktan sonra 5'i siliyoruz. Yeni durumda root 8 oluyor. 8'i hallettikten sonra 25. Gifte görüldüğü üzere 1. seviye 3, 2. Seviye 5, 8 ve 25. Her seviyede soldan sağa arama yapılır.
+
+![Breadth First Search](https://miro.medium.com/v2/resize:fit:1400/1*mABv47g4KfTTtv3tLXeeRQ.gif)
+
+> #### E_2. BFS Üzerindeki Time Complexity
+
+Burada her node özelinde bir kez gezdiğimiz için Time complexity O(N) olarak ölçülecektir. Ancak daha önce gezdiğimiz node’u tekrar gezecek durumda kalırsak bu oranlar değişecektir.
+
+> #### E_3. Kaynak Siteler
+
+- [Youtube - 5 dakikada BFS Algoritması](https://www.youtube.com/watch?v=ZRsBG369Cno)
+- [Youtube- BFS Algoritması (Geniş Öncelikli Arama) Konu Anlatımı](https://www.youtube.com/watch?v=7v0S6tppfcQ)
+- [Youtube - BFS Algoritması - Breadth First Search Algoritması Genişlik Öncelikli Arama](https://www.youtube.com/watch?v=jls6qCzhC50)
+- [Youtube - Veri Yapıları Ders 42 Breadth First Search (BFS)](https://www.youtube.com/watch?v=FeAGnGvgAXo)
+- [Youtube - Yayılım Öncelikli Arama (Breadth First Search, BFS)](https://www.youtube.com/watch?v=PPAp_w_oXzw)
+- [BFS (Breadth First Search) — Geniş Öncelikli Arama](https://medium.com/tapu-com-bak%C4%B1%C5%9F-a%C3%A7%C4%B1s%C4%B1/bfs-breath-first-search-geni%C5%9F-%C3%B6ncelikli-arama-algoritmas%C4%B1n%C4%B1-tan%C4%B1yal%C4%B1m-ec7050a41af)
+
 <hr>
 
 ## 6. Karar Verme Algoritması
