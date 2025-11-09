@@ -1012,6 +1012,7 @@ Sık kullanılan sıralama algoritmalarının, verinin karmaşıklığına göre
 > #### A_4. Kaynak Siteler
 
 - [Youtube - Sorting #20](https://www.youtube.com/watch?v=v3Z6crtZVek)
+- [Youtube - Bubble Sort Algoritması ve Fonksiyonlar (C++)](https://www.youtube.com/watch?v=a-fiV2VBFK8)
 - [Sıralama Algoritmaları (Sorting Algorithms)](https://www.halildurmus.com/2021/02/22/siralama-algoritmalari-sorting-algorithms/)
 - [Sıralama Algoritmaları](https://serdarkuzucu.com/siralama-algoritmalari/)
 
