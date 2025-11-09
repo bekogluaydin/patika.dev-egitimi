@@ -1219,3 +1219,13 @@ Burada her node özelinde bir kez gezdiğimiz için Time complexity O(N) olarak 
 
 - [Minimax Algoritması ile TicTacToe Oyunu](https://ahmetatasoglu98.medium.com/minimax-algoritmas%C4%B1-ile-tictactoe-oyunu-82fc58d76b61)
 - [Minimax Ağaçları (Minimax Tree)](https://bilgisayarkavramlari.com/2009/04/29/minimax-agaclari-minimax-tree/)
+
+<hr>
+
+## 7. A* Algoritması
+
+> ### A. Kaynak Siteler
+
+- [Youtube - A* Algoritması](https://www.youtube.com/watch?v=6ntgW3J_uRA)
+- [A* Algoritması Navigasyonlarda Nasıl Kullanılır ve Diğer Algoritmalarından Neden Daha Verimlidir?]([https://bilgisayarkavramlari.com/2009/04/29/minimax-agaclari-minimax-tree/](https://www.yazgit.com.tr/a-algoritmasi-navigasyonlarda-nasil-kullanilir-ve-diger-algoritmalarindan-neden-daha-verimlidir/#:~:text=A*%20algoritmas%C4%B1%2C%20en%20k%C4%B1sa%20yol,daha%20verimli%20bir%20%C5%9Fekilde%20ilerler.))
+- [A* Yol Bulma Algoritması ve Python ile Uygulaması]([https://www.youtube.com/watch?v=6ntgW3J_uRA](https://medium.com/@adem.akdogan/a-yol-bulma-algoritmas%C4%B1-ve-python-ile-uygulamas%C4%B1-fd7d89f38cb1))
